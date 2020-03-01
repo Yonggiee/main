@@ -37,11 +37,11 @@ public class PersonCard extends UiPart<Region> {
     @FXML
     private Label address;
     @FXML
-    private Label remark;
-    @FXML
     private Label email;
     @FXML
     private FlowPane tags;
+    @FXML
+    private Label remark;
 
     public PersonCard(Person person, int displayedIndex) {
         super(FXML);
